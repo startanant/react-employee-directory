@@ -1,35 +1,30 @@
 import React from 'react';
+import employees from '../employees.json';
 
 function Table() {
+
+    const employeeList = employees;
+    console.log(employeeList);
+
     return (
-        <table class="table table-dark">
+        <table className="table table-dark">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
                 </tr>
             </thead>
             <tbody>
+                {employeeList.map( employee => 
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <th scope="row">{employee.id}</th>
+                    <td>{employee.name}</td>
+                    <td>{employee.email}</td>
+                    <td>{employee.phone}</td>
                 </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
+                )}
             </tbody>
         </table>
     );
