@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Leanne Graham",
+        "name": "Jo Graham",
         "username": "Bret",
         "email": "Sincere@april.biz",
         "address": {
@@ -24,7 +24,7 @@
     },
     {
         "id": 2,
-        "name": "Ervin Howell",
+        "name": "John Howell",
         "username": "Antonette",
         "email": "Shanna@melissa.tv",
         "address": {
@@ -70,7 +70,7 @@
     },
     {
         "id": 4,
-        "name": "Patricia Lebsack",
+        "name": "Jorge Lebsack",
         "username": "Karianne",
         "email": "Julianne.OConner@kory.org",
         "address": {
@@ -116,7 +116,7 @@
     },
     {
         "id": 6,
-        "name": "Mrs. Dennis Schulist",
+        "name": "Joey Schulist",
         "username": "Leopoldo_Corkery",
         "email": "Karley_Dach@jasper.info",
         "address": {
