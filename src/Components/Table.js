@@ -56,7 +56,7 @@ function Table() {
         <table className="table table-dark">
             <thead>
                 <tr>
-                    <th scope="col" onClick={function () { sortById(sort)} }>id</th>
+                    <th scope="col" onClick={function () { sortById(sort) }}> ID <i class="fas fa-sort"></i></th>
                     <th scope="col"><input type="text" value={myFilter} placeholder="Name" onChange={handleInputChange}></input></th>
                     <th scope="col">Email</th>
                     <th scope="col">Phone</th>
