@@ -1,5 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Employee Directory
 
+An employee directory in React to demonstrate components, managing state and events.
+
+When the user loads the page, a table of employees is rendered.
+
+The user is able to:
+
+- Sort the table by ID.
+
+- Filter users by name.
+
+This React app is built and deployed to [GitHub Pages](https://startanant.github.io/react-employee-directory/) from the `gh-pages` branch.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
 ## Available Scripts
 
 In the project directory, you can run:
